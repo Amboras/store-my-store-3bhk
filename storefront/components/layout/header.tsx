@@ -81,9 +81,13 @@ export default function Header() {
             </button>
 
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
-              <span className="font-heading text-2xl font-semibold tracking-tight">
-                Store
+            <Link href="/" className="flex items-center gap-1.5 group">
+              <span className="relative inline-flex h-7 w-7 items-center justify-center rounded-full bg-lime">
+                <span className="absolute inset-1 rounded-full border border-[#0E1410]/25" />
+                <span className="relative h-1.5 w-1.5 rounded-full bg-[#0E1410]" />
+              </span>
+              <span className="font-heading text-xl sm:text-2xl font-bold tracking-tight">
+                Padel<span className="text-lime bg-[#0E1410] px-1 ml-0.5 rounded-sm">Grab</span>
               </span>
             </Link>
 

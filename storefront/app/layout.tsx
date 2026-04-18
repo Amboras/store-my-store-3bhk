@@ -30,10 +30,10 @@ const body = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Store — Modern Commerce',
-    template: '%s | Store',
+    default: 'PadelGrab — Play More. Bend Less.',
+    template: '%s | PadelGrab',
   },
-  description: 'Discover curated products crafted with care. A modern ecommerce experience.',
+  description: 'The smart clip-on ball picker for padel players. Scoop up balls in one click and keep the flow of your game. Free shipping worldwide.',
 }
 
 export default function RootLayout({

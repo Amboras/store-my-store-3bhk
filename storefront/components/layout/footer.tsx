@@ -46,13 +46,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block">
-              <span className="font-heading text-2xl font-semibold">
-                Store
+            <Link href="/" className="inline-flex items-center gap-1.5">
+              <span className="relative inline-flex h-7 w-7 items-center justify-center rounded-full bg-lime">
+                <span className="absolute inset-1 rounded-full border border-[#0E1410]/25" />
+                <span className="relative h-1.5 w-1.5 rounded-full bg-[#0E1410]" />
+              </span>
+              <span className="font-heading text-2xl font-bold">
+                Padel<span className="text-lime bg-[#0E1410] px-1 ml-0.5 rounded-sm">Grab</span>
               </span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Curated products crafted with care. Quality you can feel, design you can see.
+              The smart clip-on ball picker designed for padel players who want to keep the flow of their game.
             </p>
           </div>
 
@@ -102,7 +106,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Store. All rights reserved.
+            &copy; {new Date().getFullYear()} PadelGrab. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <button
